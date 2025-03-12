@@ -2,7 +2,7 @@
 import { Eye, RotateCcw, Save } from "lucide-react";
 import Image from "next/image";
 import PersonalDetailsForm from "./components/PersonalDetailsForm";
-import { useEffect, useRef, useState } from "react";
+import {useRef, useState } from "react";
 import { Education, Experience, Hobby, Language, PersonalDetails, Skill } from "@/type";
 import { educationsPreset, experiencesPreset, hobbiesPreset, languagesPreset, personalDetailsPreset, skillsPreset } from "@/presets";
 import CVPreview from "./components/CVPreview";
