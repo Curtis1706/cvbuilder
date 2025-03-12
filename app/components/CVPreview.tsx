@@ -1,7 +1,7 @@
 import { Education, Experience, Hobby, Language, PersonalDetails, Skill } from '@/type'
 import React from 'react'
 import Image from 'next/image'
-import { BriefcaseBusiness, GraduationCap, Languages, Mail, MapPinCheck, Phone, Star } from 'lucide-react';
+import { BriefcaseBusiness, GraduationCap, Mail, MapPinCheck, Phone, Star } from 'lucide-react';
 
 type BrowserFile = globalThis.File;
 
