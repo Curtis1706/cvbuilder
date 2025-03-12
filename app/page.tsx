@@ -24,7 +24,6 @@ export default function Home() {
   const [languages, setLanguages] = useState<Language[]>(languagesPreset)
   const [skills, setSkills] = useState<Skill[]>(skillsPreset)
   const [hobbies, setHobbies] = useState<Hobby[]>(hobbiesPreset)
-  const cvPreviewRef = useRef(null)
   const previewModalRef = useRef(null)
   
   const handleDownloadPdf = async () => {
@@ -44,8 +43,8 @@ export default function Home() {
           }
         )
 
-        const pdfWidth = pdf.internal.pageSize.getWidth()
-        const pdfHeight = (canvas.height * pdfWidth) / canvas.width
+       /*  const pdfWidth = pdf.internal.pageSize.getWidth()
+        const pdfHeight = (canvas.height * pdfWidth) / canvas.width */
 
         pdf.addImage(imgData, 'PNG', 0, 0, 211, 298);
         pdf.save(`CV.pdf`)
