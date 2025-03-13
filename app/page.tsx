@@ -266,8 +266,7 @@ export default function Home() {
                 className="mx-auto my-6"
               />
               <p className="py-6">
-                Pour créer et personnaliser votre CV, veuillez utiliser un ordinateur. Nous vous
-                remercions de votre compréhension.
+              Toi aussi comment tu vas vouloir créer ton CV sur portbale. Soit plus responsable
               </p>
             </div>
           </div>
