@@ -266,7 +266,7 @@ export default function Home() {
                 className="mx-auto my-6"
               />
               <p className="py-6">
-              Toi aussi comment tu vas vouloir créer ton CV sur portbale. Soit plus responsable
+              Toi aussi comment tu vas vouloir créer ton CV sur portable. Soit plus responsable
               </p>
             </div>
           </div>
