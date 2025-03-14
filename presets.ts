@@ -1,10 +1,10 @@
 import { Education, Experience, Hobby, Language, PersonalDetails, Skill } from '@/type';
 
 export const personalDetailsPreset: PersonalDetails = {
-    fullName: 'Firinze DOSSOU',
-    email: 'firo@example.com',
+    fullName: 'NOM Prenom',
+    email: 'mail@example.com',
     phone: '+123456789',
-    address: '123, Lokossa',
+    address: '123, Benin',
     photoUrl: '/profile.jpg',
     postSeeking:'Dev fullstack',
     description:`Passionné par le développement web, j'ai une solide expérience en création de plateformes web, optimisation des performances et intégration de solutions techniques`
